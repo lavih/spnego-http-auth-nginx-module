@@ -177,6 +177,9 @@ belongs to. When this is impractical, you may also choose to increase the allowe
 header size by explicitly setting the number and size of Nginx header buffers:
 
     large_client_header_buffers 8 32k;
+    
+https://www.youtube.com/watch?v=u7MQoSN19O4&ab_channel=F5DevCentral 10:41
+kerberos is using UDP by defualt but can fallback to tcp when tickets get too large if the uses are in a lot of groups
 
 Debugging
 ---------
